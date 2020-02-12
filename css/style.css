@@ -16,13 +16,30 @@ body {
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  transition: .3s all ease; 
+
+}
   a:hover {
     text-decoration: none; }
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Display Playfair"; }
+
+.text-primary {
+    color: rgb(105, 105, 105) !important;
+}
+
+/* READ MORE Colour */
+
+.text-uppercase {
+  color: rgb(105, 105, 105) !important;
+}
+
+/* Price Colour */
+.text-primary {
+  color: rgb(97, 97, 97) !important;
+}
 
 .text-black {
   color: #000 !important; }
@@ -67,6 +84,12 @@ h1, h2, h3, h4, h5,
     .btn.btn-black:hover {
       color: #000;
       background-color: #fff; }
+
+/* "Send Button at the bottom" */
+.btn-primary {
+  background-color: rgb(97, 97, 97) !important;
+  border-color: rgb(241, 207, 197) !important;
+}
 
 .line-height-1 {
   line-height: 1 !important; }
